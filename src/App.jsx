@@ -1,7 +1,11 @@
+import Login from './components/Login';
+import Profile from './components/Profile';
+
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <Profile />
+      <Login />
     </>
   );
 }
